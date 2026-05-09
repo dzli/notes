@@ -1,0 +1,74 @@
+# Tag Taxonomy
+
+Hierarchical tag vocabulary for the wiki. Tags are inherited upward — an article tagged `claude` is implicitly tagged `llm` and `ai`.
+
+When ingesting a new article:
+- Assign tags from this tree first
+- Add new nodes only when the concept is genuinely not covered
+- Place new nodes in the correct parent based on domain knowledge
+
+---
+
+- ai
+  - llm
+    - claude
+    - gpt
+    - gemini
+    - mistral
+    - llama
+  - agent
+    - claude-code
+    - mcp
+    - tool-use
+    - autonomous-agent
+    - agent-memory
+    - langgraph
+    - human-in-the-loop
+  - ml
+    - training
+    - fine-tuning
+    - inference
+    - embeddings
+    - rag
+    - vector-search
+  - ai-safety
+  - prompt-engineering
+- software
+  - languages
+    - python
+    - javascript
+    - typescript
+    - rust
+    - go
+  - architecture
+    - microservices
+    - api-design
+    - distributed-systems
+    - design-patterns
+  - devops
+    - docker
+    - kubernetes
+    - ci-cd
+    - cloud
+    - observability
+  - databases
+    - sql
+    - nosql
+    - vector-db
+  - security
+  - testing
+- web
+  - frontend
+    - react
+    - css
+  - backend
+    - nodejs
+    - rest
+    - graphql
+- tools
+  - editor
+    - vscode
+    - vim
+  - cli
+  - search
+  - productivity
