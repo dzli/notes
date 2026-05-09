@@ -10,6 +10,7 @@ A protocol that allows LLMs and AI agents to interface with external tools and d
 
 ## Articles
 - [[sources/qmd]] — exposes an MCP server (`qmd mcp`) for direct integration with Claude Code, Claude Desktop, and other MCP clients
+- [[sources/pipelock]] — bidirectional MCP security proxy scanning client requests for DLP leaks, server responses for injection/tool poisoning, and tool-list changes for rug-pull attacks
 
 ## Related Tags
 - [[tags/agent]]

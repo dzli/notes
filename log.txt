@@ -16,3 +16,6 @@ If you wish to set tracking information for this branch you can do so with:
 [2026-05-09T23:28:32.611Z] ingested tobiqmd mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local.md
 [2026-05-09T23:28:33.921Z] pushed commit covering 3 file(s)
 [2026-05-09T23:29:40.009Z] agent CLI stopped
+[2026-05-09T23:43:38.544Z] agent CLI started (interval=300s, model=ollama/glm-5.1:cloud, data=/home/dazhi/projects/notes)
+[2026-05-09T23:48:41.150Z] found 1 file(s) in raw/, starting agent
+[2026-05-09T23:52:45.876Z] ingested luckyPipewrenchpipelock Open-source AI agent firewall for MCP security agent egress control, DLP, SSRF, and prompt injection defense..md

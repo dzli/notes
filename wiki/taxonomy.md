@@ -24,6 +24,7 @@ When ingesting a new article:
     - agent-memory
     - langgraph
     - human-in-the-loop
+    - agent-security
   - ml
     - training
     - fine-tuning
