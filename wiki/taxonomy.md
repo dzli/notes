@@ -33,6 +33,7 @@ When ingesting a new article:
     - rag
     - vector-search
     - moe
+    - adversarial-ml
   - ai-safety
   - privacy
   - prompt-engineering

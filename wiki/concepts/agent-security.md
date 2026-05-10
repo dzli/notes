@@ -70,6 +70,7 @@ Multi-pass text normalization before injection scanning to defeat evasion via ze
 - **Agent cooperation**: agents that receive structured block-reason headers (`X-Pipelock-Block-Reason`) can react intelligently to policy enforcement rather than silently failing
 
 ## Related
+- [[concepts/adversarial-ml]] — evasion, poisoning, and extraction attacks on ML systems; spam-filter origins of adversarial ML
 - [[concepts/pii-masking]] — detecting and masking PII before data reaches LLM APIs
 
 - [[sources/pipelock]] — the open-source reference implementation of these patterns

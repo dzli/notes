@@ -12,3 +12,4 @@ Format: `## [YYYY-MM-DD] operation | description`
 ## [2026-04-18] ingest | Production-Grade Agents with LangGraph, Qdrant, Langfuse, Redis, Postgres, Prometheus and Grafana
 ## [2026-05-09] ingest | Pipelock: Open-source AI agent firewall for MCP security
 ## [2026-05-09] ingest | OpenAI Privacy Filter: open-weights PII masking model (Apache 2.0, 1.5B MoE, local inference)
+## [2026-05-09] ingest | How Spam Filters Shaped the Field of Adversarial ML
