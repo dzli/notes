@@ -32,7 +32,9 @@ When ingesting a new article:
     - embeddings
     - rag
     - vector-search
+    - moe
   - ai-safety
+  - privacy
   - prompt-engineering
 - software
   - languages
@@ -73,3 +75,4 @@ When ingesting a new article:
   - cli
   - search
   - productivity
+  - open-source
