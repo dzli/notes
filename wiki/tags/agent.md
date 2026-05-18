@@ -11,7 +11,8 @@ AI systems that can take actions, use tools, maintain state, and operate autonom
 ## Articles
 - [[sources/honcho]] — open-source memory library that manages persistent state and reasoning about peers (users and agents) for stateful agent applications
 - [[sources/production-grade-agents]] — Compass blueprint: production customer support agent using LangGraph supervisor + specialist subagents, durable HITL, OPA policy enforcement, and full observability stack
-- [[sources/pipelock]] — open-source AI agent firewall that proxies all agent egress traffic with 11-layer URL scanning, bidirectional MCP scanning, DLP, prompt injection defense, and signed action receipts
+- [[sources/pipelock]] — open-source AI agent firewall that proxies all agent egress traffic with 11-layer URL scanning, bidirectional MCP scanning, DLP, prompt insertion defense, and signed action receipts
+- [[sources/lapis]] — persistent memory for the Pi coding agent; local SQLite, trust scoring, code indexing, Dream Cycle staleness cleanup
 
 ## Related Tags
 - [[tags/llm]]

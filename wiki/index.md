@@ -9,6 +9,7 @@ Catalog of all wiki pages. Updated on every ingest.
 - [[sources/production-grade-agents]] — Compass blueprint: production customer support agent with LangGraph, Qdrant, HITL, Langfuse, Redis, Postgres, Prometheus, Grafana
 - [[sources/pipelock]] — Pipelock: open-source AI agent firewall for MCP security, egress control, DLP, SSRF, and prompt injection defense
 - [[sources/openai-privacy-filter]] — OpenAI Privacy Filter: 1.5B/50M active MoE PII masking model, Apache 2.0, local inference, 128k context, ~97% F1
+- [[sources/lapis]] — LaPis: persistent memory for the Pi coding agent; one SQLite DB, zero cloud/API keys; trust scoring, trigram dedup, Dream Cycle, tree-sitter code indexing
 
 ## Concepts
 - [[concepts/adversarial-ml]] — adversarial ML: evasion, poisoning, extraction attacks and defenses; cost asymmetries; spam-filter origins to modern AI threats
@@ -41,3 +42,5 @@ Catalog of all wiki pages. Updated on every ingest.
 - [[tags/privacy]] — data privacy and regulatory compliance
 - [[tags/moe]] — Mixture of Experts sparse neural network architecture
 - [[tags/open-source]] — open-source software, licenses, and community-driven development
+- [[tags/sqlite]] — serverless embedded relational database engine
+- [[tags/code-indexing]] — systems for parsing, indexing, and querying code structure and symbols

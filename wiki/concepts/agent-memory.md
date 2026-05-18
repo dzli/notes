@@ -26,6 +26,9 @@ Store messages/summaries in a vector database; retrieve relevant segments at que
 ### Derived Representations
 Asynchronously process conversations to extract structured facts and psychological/behavioral profiles about entities (the approach Honcho calls "derivation"). Results are stored as per-peer `Representations` — low-latency static documents suitable for prompt injection without needing a retrieval call.
 
+### Local SQLite Memory
+Store all agent memories, code indices, and trust scores in a single local SQLite database with FTS5 full-text search. No cloud dependency, no API keys, no separate server. LaPis exemplifies this approach: trigram-based deduplication (≥85% auto-merge), trust scoring linked to code stability, and a Dream Cycle that removes stale (not merely old) memories. Code and doc indexing via WASM tree-sitter provides semantic search without embeddings.
+
 ### Episodic + Semantic Memory
 Episodic: specific past events/conversations. Semantic: general facts derived from episodes. Advanced agent memory systems maintain both.
 
@@ -43,6 +46,7 @@ Different use cases call for different retrieval strategies:
 ## Tools & Libraries
 
 - **[[sources/honcho]]** — open-source memory library; peer-centric model; async derivation; Chat API oracle; pgvector backend; managed service available
+- **[[sources/lapis]]** — local SQLite persistent memory for the Pi coding agent; trust scoring, trigram dedup, Dream Cycle stale-memory cleanup, tree-sitter code/doc indexing, token-efficient wire format; zero cloud/API keys
 
 ## Related
 

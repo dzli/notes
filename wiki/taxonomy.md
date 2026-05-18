@@ -57,6 +57,7 @@ When ingesting a new article:
     - observability
   - databases
     - sql
+    - sqlite
     - nosql
     - vector-db
   - security
@@ -75,5 +76,6 @@ When ingesting a new article:
     - vim
   - cli
   - search
+  - code-indexing
   - productivity
   - open-source
